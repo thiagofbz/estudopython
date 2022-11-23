@@ -23,7 +23,7 @@ jobs:
       - name: Convair
         uses: actions/checkout@v2 # Executa o Git clone para dentro do Runner
         with:
-          repository: trintoni/actions # Nome do repositorio que quero baixar
+          repository: thiagofbz/actions # Nome do repositorio que quero baixar
           path: ./.actions # Caminho onde quero que baixe
 
       - name: Define Branch Type
